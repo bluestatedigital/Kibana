@@ -77,9 +77,9 @@ $KIBANA_CONFIG = array(
   'primary_field' => '_all',
 
   // Default Elastic Search index to query
-  'default_index' => 'logstash',
+  'default_index' => '',
 
-  'index_suffix' => '',
+  'index_suffix' => '-logs',
 
   // default search settings
   'default_search' => array(
