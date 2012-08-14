@@ -2,7 +2,7 @@
 
 $KIBANA_CONFIG = array(
   // Your elastic search server
-  'elasticsearch_server' => "elasticsearch:9200",
+  'elasticsearch_server' => "log2.colo.bluestatedigital.com:9200",
 
   // URL path to kibana. Apache users can safely leave this
   // blank in most situations.
