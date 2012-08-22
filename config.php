@@ -74,14 +74,14 @@ $KIBANA_CONFIG = array(
   // field called _all that is searched when no field is specified.
   // Dropping _all can reduce index size significantly. If you do that
   // you'll need to change primary_field to be '@message'
-  'primary_field' => '_all',
+  'primary_field' => '@message',
 
   //The default operator used if no explicit operator is specified. 
   //For example, with a default operator of OR, the query capital of 
   //Hungary is translated to capital OR of OR Hungary, 
   //and with default operator of AND, the same query is translated 
   //to capital AND of AND Hungary. The default value is OR.
-  'default_operator' => 'OR',
+  'default_operator' => 'AND',
 
   // Default Elastic Search index to query
   'default_index' => '',
